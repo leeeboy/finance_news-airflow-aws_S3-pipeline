@@ -77,6 +77,7 @@ TaskFlow API ensures automatic dependency management, while deferrable sensors r
 
 #### Step 1: Clone the Repository
 git clone https://github.com/leeeboy/finance_news-airflow-aws_S3-pipeline.git
+
 cd finance-news-etl
 
 #### Step 2: Set Airflow Variables
