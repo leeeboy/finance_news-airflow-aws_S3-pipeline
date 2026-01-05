@@ -2,6 +2,12 @@
 ## 1. Project Overview
 
 This project implements an Airflow ETL pipeline that fetches finance news data from the Alpha Vantage API, transforms it, stores it in an Excel file, and uploads it to an AWS S3 bucket. The pipeline is designed to be modular, production-ready, and scalable, making it suitable for recurring data ingestion and downstream analytics.
+### DAG Architecture
+<img width="1246" height="872" alt="finance-news_API_EXCEL_S3-graph" src="https://github.com/user-attachments/assets/cb0be3ce-0f54-4bd7-97ee-f00cd9718364" />
+
+### Airflow DAG schedule
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/ed7dc4a0-1df1-48f3-b375-938603039ea8" />
+
 
 ### Key Features:
 
